@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/d"
+    tools:context="com.example.sandip.adv.Graph">
+
+    <TextView
+        android:id="@+id/tvHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/btn2"
+        android:layout_marginTop="54dp"
+        android:fontFamily="casual"
+        android:text="Classification"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btn2"
+        android:layout_alignTop="@+id/tvHeading"
+        android:layout_marginTop="66dp"
+        android:background="@drawable/button2"
+        android:text="COMPANY WISE"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn1"
+        android:layout_marginStart="51dp"
+        android:background="@drawable/button2"
+        android:text="HOARDING WISE"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+</RelativeLayout>
