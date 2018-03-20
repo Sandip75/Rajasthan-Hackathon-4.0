@@ -9,6 +9,8 @@ We have used cameras which detect the eyes of people who are looking at the hoar
 
 ![Screenshot](b.png)
 
+![Screenshot](p.png)![Screenshot](g.png)
+
 ![Screenshot](d.png)
 
 ![Screenshot](e.png)
